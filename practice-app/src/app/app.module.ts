@@ -5,16 +5,20 @@ import { AppComponent } from './app.component';
 import { AlertsComponent } from './alerts/alerts.component';
 import { WarningAlertComponent } from './alerts/warning-alert/warning-alert.component';
 import { SuccessAlertComponent } from './alerts/success-alert/success-alert.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [	
+  declarations: [		
     AppComponent,
     AlertsComponent,
     WarningAlertComponent,
-    SuccessAlertComponent
+    SuccessAlertComponent,
+    DataBindingComponent
    ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
