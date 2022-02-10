@@ -7,14 +7,16 @@ import { WarningAlertComponent } from './alerts/warning-alert/warning-alert.comp
 import { SuccessAlertComponent } from './alerts/success-alert/success-alert.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
-  declarations: [		
+  declarations: [			
     AppComponent,
     AlertsComponent,
     WarningAlertComponent,
     SuccessAlertComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    DirectivesComponent
    ],
   imports: [
     BrowserModule,
